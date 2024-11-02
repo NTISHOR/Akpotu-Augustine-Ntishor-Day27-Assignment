@@ -20,6 +20,24 @@
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+  
+  .gallery-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  	padding: 20px;
+}
+
+.gallery-2 img {
+    width: calc(40.55% - 10px);
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+  
 @media only screen and (max-width: 768px) {
     .gallery img {
         width: calc(50% - 10px);
@@ -85,7 +103,7 @@
         }
 
         aside {
-            flex-basis: 30%;
+            flex-basis: 70%;
             background-color: var(--secondary-color);
             padding: 1em;
         }
@@ -132,6 +150,9 @@
            <section id="content">
         <h2>Who We Are</h2>
         <p>AUSTEEN COMPUTERS is a leading provider of innovative technology solutions. Our mission is to empower individuals and businesses with cutting-edge computing solutions.</p>
+             <div class="gallery">
+                <img src="IMAGES/AUSTEEN 0.jfif" alt="Image 1">
+                  </div>
        <h2>Our Services</h2>
         <ul>
         <li>Computer Hardware and Software Sales</li>
@@ -140,13 +161,9 @@
         <li>Cyber Security Solutions</li>
         <li>Data Recovery and Backup Services</li>
         </ul>
-         <div class="gallery">
-            <img src="IMAGES/AUSTEEN 0.jfif" alt="Image 1">
-            <img src="IMAGES/AUSTEEN 1.jfif" alt="Image 2">
-            <img src="IMAGES/AUSTEEN 2.jpeg" alt="Image 3">
-            <img src="IMAGES/AUSTEEN 3.jfif" alt="Image 4">
-            <img src="IMAGES/AUSTEEN 4.jfif" alt="Image 5">
-        </div>
+          <div class="gallery">
+              <img src="IMAGES/AUSTEEN 1.jfif" alt="Image 2"> 
+                </div>
         </section>
         </div>
          
@@ -159,6 +176,9 @@
         <li>Gaming Consoles</li>
         <li>Software and Antivirus Solutions</li>
         </ul>
+          <div class="gallery">
+                            <img src="IMAGES/AUSTEEN 2.jpeg" alt="Image 3">
+          </div>
         <h2>Why Choose Us?</h2>
         <ul>
         <li>Expert Technical Support</li>
@@ -167,9 +187,15 @@
         <li>Fast Delivery</li>
         <li>Customer-Centric Approach</li>
         </ul>
+             <div class="gallery">
+                           <img src="IMAGES/AUSTEEN 3.jfif" alt="Image 4">
+              </div>
             </aside>
         </main>
 </body>
+              <div class="gallery-2">
+            <img src="IMAGES/AUSTEEN 4.jfif" alt="Image 5">
+        </div>
 <footer>
     <p>Contact us today to learn more about our products and services!</p>
       <p>&copy; 2024 Responsive Webpage</p>
@@ -181,4 +207,4 @@
     </br>
   <a href="https://github.com/NTISHOR" target="_blank">GitHub</a> 
   </footer>
-</html> 
+</html>
